@@ -13,8 +13,8 @@ $(call inherit-product, vendor/nethunter/config/nfc_enhanced.mk)
 $(call inherit-product, device/lge/hammerheadcaf/full_hammerhead.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := hammerheadcaf
-PRODUCT_NAME := nethunter_hammerheadcaf
+PRODUCT_DEVICE := hammerhead
+PRODUCT_NAME := nethunter_hammerhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5 CAF
 PRODUCT_MANUFACTURER := LGE
