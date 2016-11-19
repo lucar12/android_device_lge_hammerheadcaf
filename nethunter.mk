@@ -1,16 +1,13 @@
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-TARGET_BOOTANIMATION_HALF_RES := true
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/nethunter/config/common_full_phone.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/nethunter/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/hammerheadcaf/full_hammerhead.mk)
+$(call inherit-product, device/lge/hammerheadcaf/device.mk)
+
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hammerheadcaf
