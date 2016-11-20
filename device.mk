@@ -223,10 +223,10 @@ PRODUCT_COPY_FILES += \
 
 # Nexmon Lib files
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/nexmon/libcrypto.so:system/lib/libcrypto.so \
-	$(LOCAL_PATH)/nexmon/libfakeioctl.so:system/lib/libfakeioctl.so \
-	$(LOCAL_PATH)/nexmon/libsqlite.so:system/lib/libsqlite.so \
-	$(LOCAL_PATH)/nexmon/libssl.so:system/lib/libssl.so	
+	$(LOCAL_PATH)/nexmon/libcrypto.so:system/xbin/libcrypto.so \
+	$(LOCAL_PATH)/nexmon/libfakeioctl.so:system/xbin/libfakeioctl.so \
+	$(LOCAL_PATH)/nexmon/libsqlite.so:system/xbin/libsqlite.so \
+	$(LOCAL_PATH)/nexmon/libssl.so:system/xbin/libssl.so	
 
 # Power
 PRODUCT_PACKAGES += \
