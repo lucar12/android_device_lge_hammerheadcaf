@@ -191,7 +191,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
     frameworks/native/data/etc/android.software.midi.xml:system/etc/permissions/android.software.midi.xml
 
-# Permissions
+# Nexmon Binaries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nexmon/airbase-ng:system/xbin/airbase-ng \
     $(LOCAL_PATH)/nexmon/aircrack-ng:system/xbin/aircrack-ng \
@@ -220,6 +220,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/nexmon/tkiptun-ng:system/xbin/tkiptun-ng \
 	$(LOCAL_PATH)/nexmon/wesside-ng:system/xbin/wesside-ng \
 	$(LOCAL_PATH)/nexmon/wpaclean:system/xbin/wpaclean
+
+# Nexmon Lib files
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/nexmon/libcrypto.so:system/lib/libcrypto.so \
+	$(LOCAL_PATH)/nexmon/libfakeioctl.so:system/lib/libfakeioctl.so \
+	$(LOCAL_PATH)/nexmon/libsqlite.so:system/lib/libsqlite.so \
+	$(LOCAL_PATH)/nexmon/libssl.so:system/lib/libssl.so	
 
 # Power
 PRODUCT_PACKAGES += \
