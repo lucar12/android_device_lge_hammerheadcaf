@@ -207,7 +207,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nexmon/easside-ng:system/xbin/easside-ng \
     $(LOCAL_PATH)/nexmon/ivstools:system/xbin/ivstools \
     $(LOCAL_PATH)/nexmon/iw:system/xbin/iw \
-    $(LOCAL_PATH)/nexmon/iwconifg:system/xbin/iwconfig \
+    $(LOCAL_PATH)/nexmon/iwconfig:system/xbin/iwconfig \
     $(LOCAL_PATH)/nexmon/iwlist:system/xbin/iwlist \
     $(LOCAL_PATH)/nexmon/iwpriv:system/xbin/iwpriv \
     $(LOCAL_PATH)/nexmon/kstats:system/xbin/kstats \
