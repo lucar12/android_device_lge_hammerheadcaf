@@ -219,9 +219,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nexmon/tcpdump:system/xbin/tcpdump \
 	$(LOCAL_PATH)/nexmon/tkiptun-ng:system/xbin/tkiptun-ng \
 	$(LOCAL_PATH)/nexmon/wesside-ng:system/xbin/wesside-ng \
-	$(LOCAL_PATH)/nexmon/wpaclean:system/xbin/wpaclean
+	$(LOCAL_PATH)/nexmon/wpaclean:system/xbin/wpaclean \
+    $(LOCAL_PATH)/nexmon/monstart-nh:system/xbin/monstart-nh \
+    $(LOCAL_PATH)/nexmon/monstop-nh:system/xbin/monstop-nh
 
-# Nexmon Lib files
+# Nexmon Lib files (doesn't start when copying to system/lib)
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/nexmon/libcrypto.so:system/xbin/libcrypto.so \
 	$(LOCAL_PATH)/nexmon/libfakeioctl.so:system/xbin/libfakeioctl.so \
