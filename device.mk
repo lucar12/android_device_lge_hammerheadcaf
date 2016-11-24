@@ -225,7 +225,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/nexmon/libcrypto.so:system/xbin/libcrypto.so \
 	$(LOCAL_PATH)/nexmon/libfakeioctl.so:system/xbin/libfakeioctl.so \
-    $(LOCAL_PATH)/nexmon/libfakeioctl.so:system/xbin/libfakeioctlkali.so \
+    $(LOCAL_PATH)/nexmon/libfakeioctlkali.so:system/xbin/libfakeioctlkali.so \
 	$(LOCAL_PATH)/nexmon/libsqlite.so:system/xbin/libsqlite.so \
 	$(LOCAL_PATH)/nexmon/libssl.so:system/xbin/libssl.so
 
